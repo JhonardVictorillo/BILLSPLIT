@@ -1,0 +1,40 @@
+
+.input-field:focus {
+    border-color: #34D399;
+    box-shadow: 0 0 5px #34D399;
+}
+.error-message {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: -8px;
+    margin-bottom: 8px;
+    display: none;
+}
+
+.active-section {
+    display: block !important;
+}
+.sidebar-item {
+    transition: all 0.2s ease;
+}
+.sidebar-item:hover {
+    background-color: #EEF2FF; /* Light blue-50 */
+}
+.sidebar-item.active {
+    background-color: #4F46E5; /* Primary color */
+    color: white;
+}
+.sidebar-item.active i {
+    color: white;
+}
+.sidebar-item:hover:not(.active) i {
+    color: #4F46E5; /* Primary color */
+}
+.input-field {
+    padding: 12px 16px;
+    font-size: 16px;
+}
+.error-message {
+    font-size: 14px;
+    margin-top: 8px;
+}
